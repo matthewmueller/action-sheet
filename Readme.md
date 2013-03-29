@@ -21,9 +21,9 @@ actionsheet('Are you sure?')
 
 ## API
 
-### `Actionsheet(title)`
+### `actionsheet(title)`
 
-Initialize a new Actionsheet with a `title`.
+Initialize a new `actionsheet` with a `title`.
 
 ### `.button(title, [fn])`
 
