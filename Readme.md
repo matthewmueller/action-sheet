@@ -3,7 +3,7 @@
 
   ios-inspired action sheet.
 
-  ![action sheet](http://f.cl.ly/items/3L1t2B0c232a140R0Q16/Screen%20Shot%202013-03-29%20at%201.39.56%20AM.png)
+  ![action sheet](http://f.cl.ly/items/2q1z123X312W3I2G433Q/Screen%20Shot%202013-03-29%20at%201.39.56%20AM.png)
 
 ## Installation
 
