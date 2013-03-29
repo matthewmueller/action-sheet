@@ -93,7 +93,7 @@ ActionSheet.prototype.cancel = function(title, fn) {
 
 ActionSheet.prototype.show = function() {
   var height = this.inner.offsetHeight;
-  this.el.style.height = height;
+  this.el.style.height = height + 'px';
   classes(this.el).add('show');
   return this;
 };
