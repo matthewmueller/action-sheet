@@ -1,0 +1,40 @@
+.action-sheet {
+  width: 100%;
+  background: #eee;
+  position: fixed;
+  bottom: 0;
+  height: 0;
+  overflow: hidden;
+  transition: height .3s ease-in-out;
+  -moz-transition: height .3s ease-in-out;
+  -webkit-transition: height .3s ease-in-out;
+  -o-transition: height .3s ease-in-out;
+}
+
+.action-sheet .title {
+  margin: 0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.action-sheet ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.action-sheet li {
+  cursor: pointer;
+  background: #ccc;
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.action-sheet li:last-child {
+  margin-bottom: 0;
+}
+
+.action-sheet .cancel {
+  background: #999
+}

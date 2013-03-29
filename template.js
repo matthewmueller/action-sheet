@@ -1,0 +1,1 @@
+module.exports = '<div class="action-sheet">\n  <div class="inner">\n      <p class="title"></p>\n    <ul></ul>\n  </div>\n</div>\n';

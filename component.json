@@ -1,0 +1,21 @@
+{
+  "name": "action-sheet",
+  "repo": "matthewmueller/action-sheet",
+  "description": "ios-inspired action sheet",
+  "version": "0.0.1",
+  "keywords": [],
+  "dependencies": {
+    "component/domify" : "*",
+    "component/classes" : "*",
+    "component/event" : "*"
+  },
+  "development": {},
+  "license": "MIT",
+  "scripts": [
+    "index.js",
+    "template.js"
+  ],
+  "styles": [
+    "action-sheet.css"
+  ]
+}

@@ -1,0 +1,41 @@
+<html>
+<head>
+  <title>action-sheet component</title>
+  <link rel="stylesheet" href="/build/build.css">
+  <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height" />
+
+  <style>
+    body {
+      padding: 0;
+      margin: 0 ;
+    }
+  </style>
+</head>
+<body>
+  <h1>action-sheet component</h1>
+  <button id="show">Show actionsheet</button>
+  <script src="/build/build.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    var actionsheet = require('action-sheet');
+
+    var as = actionsheet('Are you sure?')
+      .button('ok', ok)
+      .button('maybe', maybe)
+      .cancel('cancel')
+
+    show.onclick = function() {
+      as.show();
+    }
+
+    function ok () {
+      console.log('clicked ok!');
+      as.hide();
+    }
+
+    function maybe () {
+      console.log('clicked maybe!');
+      as.hide();
+    }
+  </script>
+</body>
+</html>
