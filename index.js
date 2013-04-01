@@ -47,9 +47,10 @@ function ActionSheet(title) {
  * @api public
  */
 
-ActionSheet.prototype.button = function(title, fn) {
+ActionSheet.prototype.button = function(title, fn, cls) {
   var button = buttonTemplate.cloneNode(true);
   button.innerHTML = title;
+  if (cls) classes(button).add(cls);
   this.list.appendChild(button);
   if (fn) event.bind(button, 'click', fn);
   buttons[title] = [button, fn];
@@ -65,12 +66,13 @@ ActionSheet.prototype.button = function(title, fn) {
  * @api public
  */
 
-ActionSheet.prototype.cancel = function(title, fn) {
+ActionSheet.prototype.cancel = function(title, fn, cls) {
   var self = this,
       button = buttonTemplate.cloneNode(true);
 
   classes(button).add('cancel');
   button.innerHTML = title;
+  if (cls) classes(button).add(cls);
   this.list.appendChild(button);
 
   event.bind(button, 'click', cancel);

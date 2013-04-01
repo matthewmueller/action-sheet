@@ -25,13 +25,13 @@ actionsheet('Are you sure?')
 
 Initialize a new `actionsheet` with a `title`.
 
-### `.button(title, [fn])`
+### `.button(title, [fn], [cls])`
 
-Create a button with a `title` and optional callback `fn` when clicked.
+Create a button with a `title` and optional callback `fn` when clicked. The optional `cls` allows you to add classes to the button.
 
-### `.cancel(title, [fn])`
+### `.cancel(title, [fn], [cls])`
 
-Create a cancel button with a `title` and optional `fn` when clicked. Will automatically hide the action sheet when clicked.
+Create a cancel button with a `title` and optional `fn` when clicked. Will automatically hide the action sheet when clicked. The optional `cls` allows you to add classes to the button.
 
 ### `.show()`
 
